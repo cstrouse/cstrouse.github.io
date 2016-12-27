@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Casey Strouse .::. UNIX Hacker .::. Phoenix, Arizona</title>
+  <meta name="description" content="">
+  <meta name="author" content="Casey Strouse">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <section class="header">
+      <h2 class="title">FreeBSD. Functional Programming. Simplicity.</h2>
+    </section>
+    
+    <section class="social-links">
+      <p><a href="https://github.com/cstrouse">github</a> .::. <a href="https://www.linkedin.com/in/casey-strouse-a25b8a33
+">linkedin</a> .::. <a href="https://www.upwork.com/freelancers/~0110e6096aa0047960">upwork</a> .::. <a href="https://www.hackerrank.com/cstrouse">hackerrank</a> .::. <a href="#">quora</a></p>
+    </section>
+      
+    <div class="docs-section">
+      <h6 class="docs-header">2016 Recap</h6>
+      <p>I finally feel like I *get* Lisp and functional programming and found a few tools that really fit my brain like a glove. I struggled throughout the year and nearly turned in my keyboard and rode off on my touring bike to live a life without technology but getting into functional programming and some old and somewhat unpopular ideas about computing lead me to rekindling my passion and starting fresh for 2017.</p>
+      <h6 class="docs-header">Niklaus Wirth (pascal, modula, oberon)</h6>
+      <p>I started reading some HN threads about designing and implementing high-assurance computing systems which lead me to spending many weeks studying the work of Niklaus Wirth. He was on a mission to replace complex languages and methods with ones simple enough for both teaching the fundamentals of computer science and building reliable production systems. I started programming with Visual Basic, C, and UNIX shell scripting skipping the Pascal that Mac users at school were getting into.</p>
+      <p>I started the new foray into computer science by seeing what made AdaCore's SPARK good for building reliable and secure operating systems and applications to run on them. SPARK lead me to examine the origin and evolution of the Wirth way of structuring your code, using a type system, coding using contracts, and so on. I spent some time with the modula languages, tried out the oberons, and eventually installed a copy of the BlackBox Component Builder (a Component Pascal).</p>
+      <h6 class="docs-header">Carl Sasenrath, AmigaOS, and Rebol</h6>
+      <p>Somehow from Component Pascal I ended up reading up about the Amiga OS and the ideas of Carl Sasenrath resulting in me installing Rebol 2, Rebol 3, and Red. Rebol grabbed my attention and I quickly took to the languages and Carl's ideas for how you can write performant software that was reliable, easy to understand, could be written rapidly, and that could even have cross-platform graphical interfaces without the nightmare you find in writing GTK code in C++. However, as much as I saw the future where we would all be writing elegant code in Red and spending all of that extra time we weren't writing code actually enjoying the money we made from our career the community was divided between the three language generations and wasn't delivering on Red anytime soon.</p>
+      <p>Rebol lead me to a few bloggers who had went from using Rebol for all of their programming projects (personal and professional) to a Lisp-like language called newLISP. I had written a bunch of code at the end of 2015 in Clojure, Chicken Scheme, Racket, Javascript (Node) and F#. I began starting to integrate more and more functional techniques into my code in other languages (Python, Ruby, PHP). I also took another look at Rust after a disappointing few months with Go.</p>
+      <h6 class="docs-header">Lutz and newLISP</h6>
+      <p>Then one day after reading through a bunch of newLISP code, the newLISP manuals, every blog post I could find about newLISP, and every Github repo that had newLISP as the dominant language I started to get it. I understood "code as data". Without the cloud of odd function names that were hard to remember (Common Lisp) or all of the new syntactical elements that Clojure added it was just a short time until the parens didn't bother me. newLISP made it possible for me to start writing code and experiencing the bliss of working with small composable functions, fewer data structures, and with batteries pretty much included. There was no build tool, dependency manager, project scaffolder, or anything like that creating mental friction and making me run back to Python.</p>
+      <p>I started reimplementing old failed projects and was suprised at how quickly I was able to surpass the progress made in languages that I've used for years. In three days I was able to implement at least twice what I had accomplished with Python in several months and I attribute it mostly to programming being fun again because I wasn't struggling with remember language syntax, function protypes and class hierarchies.</p>
+      <p>Next I started using newLISP as a means for exploring other ideas like the different types of OOP and different approaches to web frameworks. I started to understand concepts that made no sense when trying to learn them at the university in C# or Java because I could focus more on experiencing the ideas as I very rapidly explored things in the REPL and with the flexible lack of syntax.</p>
+      <p>Then I started seeing how I could simplify the code and make things easier to maintain by using macros to generate some of the repetitive bits and to craft simpler ways to represent the intention  of the code. DSLs made sense in Ruby from the perspective of the guy using them but I hadn't the slightest clue as to how they were implemented.</p>
+      <h6 class="docs-header">I Began Grokking Lisp</h6>
+      <p>It also sank in deep just how benficial it was to stick to a single language (or language family) throughout your career and just adapt it using the techniques learned from Lisp and FP to add new syntax, new control structures, new data structures, and so on. You don't need to learn a new language when you can experiement with the new technique in the language that fits your brain best.</p>
+      <p>Now I feel like I'm capable of solving any problem with the tools installed on my machine so long as I understand the problem domain. Front-end techniques starting making more sense too through the eyes of functional programming (FRP, MVC, etc).</p>
+      <h6 class="docs-header">Welcoming 2017 With An Open Spacemacs Buffer</h6>
+      <p>I created a massive backlog of projects to work on over the year as I was trying to dump all of the tech from my mind and move on. 2017 will be the year to knock implementing a ton of them off and release useful code as quickly as I can.</p>
+      <p>I've been off to a start so far by contributing to the <a href="https://github.com/skycocker/chromebrew">Chromebrew package manager</a> for ChromeOS. I've made more commits and had more pull requests merged into the project this month of December than I did over the last few years in total!</p>
+      <p>I'll be adding a blog to this site and hopefully starting to post regularly about what I'll be working on including:</p>
+      <ul>
+        <li>newLISP, Chicken Scheme (and maybe OpenDylan who knows)</li>
+        <li>A return to FreeBSD after too many years in the land of Loonix! And also SmartOS and Triton Data Center</li>
+        <li>R, RStudio, data visualization, data analysis</li>
+        <li>Jupyter Notebook to journal my learning and experiments</li>
+        <li>Embedded Systems</li>
+        <li>Rust</li>
+        <li>Sound Engineering (SuperCollider, Overtone, SonicPI, PureData, OSC)</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
